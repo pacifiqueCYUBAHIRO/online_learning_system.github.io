@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <title>Upload courses</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        form{
+            padding: 30px 0;
+        }
+      
+          input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+          }
+          input[type="submit"]:hover{
+            color: aqua;
+          }
+
+    </style>
+</head>
+<body>
+
+    <header>
+    <h1>OLMS</h1>
+    <nav>
+      <ul class="link">
+        <li ><a href="index.html">Home</a></li>
+        <li><a href="logout.php"><i class="fas fa-sign-out-alt" style="color: black;"></i>  Logout</a></li>
+
+      </ul>
+    </nav>
+  </header>
+
+<center>
+<form action="display_pdf.php" method="POST">
+          <input type="submit" value="Check Courses Available">
+        </form>
+</center>
+</body>
+</html>

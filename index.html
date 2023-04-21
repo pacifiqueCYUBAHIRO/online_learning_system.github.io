@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Learning Management System</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+  <style>
+    .home{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 530px;
+        align-items: center;
+        justify-content: center;
+        background-image: url(home.png);
+        background-size: contain;
+        line-height: 500px;
+
+        
+    }
+    button{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 13%;
+      background-color: brown;
+      margin-left: 450px;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      margin-bottom: -50px;
+      
+    }
+    button a{
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      font-size: 15px;
+      font-weight: bold;
+    }
+    button:hover{
+      color: black;
+      background: #021f24;
+      transition: 0.6s ease-in-out;
+    }
+    label{
+      margin-top: -200px;
+      display: flex;
+      color: #150668;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 30px;
+      font-weight: bold;
+      margin-left: -100px;
+      margin-top: -300px;
+      transition: 0.5s ease-in-out;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+
+    .moving-text {
+      animation-name: move-text;
+      animation-duration: 6s;
+      animation-iteration-count: infinite;
+    }
+    
+    @keyframes move-text {
+      0% {
+        transform: translateX(0);
+      }
+      50% {
+        transform: translateX(50px);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    } 
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>OLMS</h1>
+    <nav>
+      <ul class="link">
+        <li ><a href="index.html" style="background: #eee; color:black; padding: 10px; border-radius:5px; font-weight: bold;">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="login.php"><i class="fas fa-sign-in-alt" style="color: black;"></i> Login</a></li>
+
+
+      </ul>
+    </nav>
+  </header>
+ 
+  <center>
+
+    <div class="home" >
+      <label class="moving-text" >WELCOME TO ONLINE LEARNING  SYSYTEM</label>
+      
+      
+    </div>
+    
+<br>
+  <main  style="top: 0;" id="about"><br><br><br><br>
+    <section >
+      
+      
+      <h2 >Welcome to our online learning platform</h2>
+      <br>
+      <span style="color: darkblue; font-weight: bold;" >An online learning system is a web-based platform that allows students and teachers to engage<br> in learning and teaching activities remotely.<br>
+        Our system offers a wide range of courses in various fields. <br> You can take courses at your own pace, and learn from the comfort of your home.
+        </span><br><br>
+        
+        <button><a href="#More" >LEARN MORE</a></button><br><br><br><br>
+      <img src="pic.png" alt="" ><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <label for="" style="margin-left: 450px; color:#021f24 " id="More">History</label>
+      <p style="line-height: 33px;" >
+        In recent years, the field of education has seen a rapid transformation with the introduction of various technological tools and advancements. One of the most significant developments is the introduction of Learning Management Systems (LMS), which have become a crucial tool for teachers and students alike. LMS has been around for quite some time now, and it has proven to be an excellent tool for educators to manage their courses and students' progress. However, the traditional LMS has some limitations, and this is where the concept of Nonlinear Learning Management System (NLMS) comes in.
+
+So, what exactly is a Nonlinear Learning Management System, and how does it differ from the traditional LMS? A Nonlinear LMS is a type of LMS that uses personalized learning paths for each student. In contrast, the traditional LMS follows a linear approach, where every student in a class follows the same curriculum and learning path. The Nonlinear LMS provides students with the freedom to choose their learning paths and the pace at which they learn. This type of LMS leverages machine learning algorithms to personalize the learning experience of each student.
+
+One of the significant advantages of Nonlinear LMS is that it provides students with a highly personalized learning experience. Each student has their own unique learning style and pace, and the NLMS can adapt to these differences. For instance, some students may prefer to learn by reading text, while others may prefer watching videos or listening to audio. The NLMS can adapt to these differences and provide students with the type of content that suits their learning style.
+
+Another advantage of Nonlinear LMS is that it provides educators with valuable insights into each student's learning journey. The NLMS can track students' progress, identify areas where they may be struggling, and provide recommendations to help them improve. This information can help educators tailor their teaching methods to suit each student's needs.
+
+Nonlinear LMS is also highly engaging for students. The NLMS provides students with a sense of autonomy and ownership over their learning, which can motivate them to learn and explore more. By providing students with the freedom to choose their learning paths, the NLMS can make learning more interactive and enjoyable.
+
+In conclusion, Nonlinear Learning Management System is a powerful tool that can transform the way we approach education. By providing students with personalized learning paths and insights into their learning journey, the NLMS can help educators create a more engaging and effective learning experience. As technology continues to evolve, we can expect Nonlinear LMS to become an increasingly essential tool in the field of education.
+      </p>
+
+    </section>
+  </main>
+  </center>
+  <br><br>
+  <footer>
+    <p>&copy; 2023 Online Learning Management System. All rights reserved.</p>
+  </footer>
+</body>
+</html>

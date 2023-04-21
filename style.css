@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@100;200;300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+  }
+  
+  header {
+    position: sticky;
+    top: 0;
+    background-color: #1E90FF;
+	color: #FFFFFF;
+	padding: 20px 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    float: right;
+    margin-top: -35px;
+  }
+  
+  nav li {
+    margin-right: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 15px;
+  }
+  nav a:hover{
+    color: aqua;
+    font-weight: bold;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  
+
+  main section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    width: 80%;
+    
+    padding: 50px 0;
+    background: #fcfbfb;
+    box-shadow: 0 0 10px rgba(2, 2, 2, 0.5);
+
+  }
+  section h2{
+        border-bottom: 1px solid #ccc;
+    
+  }
+  section p{
+    padding: 10px;
+    margin: 50px;
+  }
+  section img{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px 60px 0 20px;
+  }
+
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+
+  
